@@ -7,7 +7,8 @@
     "format": "prittier --write \"src/**/*.{js, jsx, css, html, json} \" ",
     "format-check": "prittier --list-different \"src/**/*.{js, jsx, css, html, json} \" ",
     "lint": "eslint \"**/*.{js, jsx}\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html"
   },
   "repository": {
     "type": "git",
@@ -21,9 +22,16 @@
   },
   "homepage": "https://github.com/michaelrorro/learning-react-ui#readme",
   "devDependencies": {
+    "babel-eslint": "^10.0.1",
     "eslint": "^5.13.0",
     "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-prettier": "^3.0.1",
+    "parcel-bundler": "^1.11.0",
     "prettier": "^1.16.3"
+  },
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
   }
 }
