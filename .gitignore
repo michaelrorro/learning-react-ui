@@ -22,3 +22,10 @@ chrome-user-data
 .vscode
 *.swp
 *.swo
+
+# secrets file
+.env
+
+# runtime local
+dist/
+.cache/
